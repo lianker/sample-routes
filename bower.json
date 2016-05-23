@@ -1,0 +1,29 @@
+{
+  "name": "sample-routes",
+  "description": "template learning route concepts",
+  "main": "main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "authors": [
+    "lianker lopes <near.7@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "^3.4.0",
+    "requirejs": "^2.1.22",
+    "bootstrap": "^3.3.6",
+    "knockout-amd-helpers": "^0.7.4",
+    "text": "requirejs-text#^2.0.14",
+    "crossroads.js": "^0.12.2",
+    "hasher": "^1.2.0"
+  }
+}

@@ -1,0 +1,13 @@
+#NODE
+node_modules/
+
+#bower
+app/libs/
+
+#VSCODE
+typings/
+
+app/dist/
+dist/
+
+.vscode/

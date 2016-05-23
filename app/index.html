@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Routes</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    
+    <!-- Inicialização do requirejs -->    
+     <script data-main="js/main" src="libs/requirejs/require.js"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div data-bind="template:{name: 'navbar'}"></div>      
+        
+        <!-- Renderização das Views -->        
+        <div data-bind="component: { name: route().page, params: route }"></div>
+        
+    </div>
+</body>
+</html>
